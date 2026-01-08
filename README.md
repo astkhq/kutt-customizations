@@ -33,7 +33,7 @@ Dark theme for Kutt
 
 | Homepage | Admin page | Login/signup |
 | -------- | ---------- | ------------ |
-| ![crimson-homepage](/themes/assets/links.png) | ![crimson-admin](/themes/assets/admin.png) | ![crimson-login-signup ](/themes/assets/login.png)
+| ![crimson-homepage](https://raw.githubusercontent.com/astkhq/kutt-customizations/main/themes/assets/links.png) | ![crimson-admin](https://raw.githubusercontent.com/astkhq/kutt-customizations/main/themes/assets/admin.png) | ![crimson-login-signup ](https://raw.githubusercontent.com/astkhq/kutt-customizations/main/themes/assets/login.png)
 
 ## Submit customizations
 
