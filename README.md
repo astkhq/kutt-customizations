@@ -24,6 +24,17 @@ This also customizes the footer to include custom links.
 | -------- | ---------- | ------------ |
 | ![crimson-homepage](https://github.com/user-attachments/assets/b74fab78-5e80-4f57-8425-f0cc73e9c68d) | ![crimson-admin](https://github.com/user-attachments/assets/a75d2430-8074-4ce4-93ec-d8bdfd75d917) | ![crimson-login-signup ](https://github.com/user-attachments/assets/b915eb77-3d66-4407-8e5d-b556f80ff453)
 
+### Dark theme
+
+Dark theme for Kutt
+
+- Completely dark theme
+- Elements are adapted for the dark theme (background, font, and footer)
+
+| Homepage | Admin page | Login/signup |
+| -------- | ---------- | ------------ |
+| ![crimson-homepage](/themes/assets/links.png) | ![crimson-admin](/themes/assets/admin.png) | ![crimson-login-signup ](/themes/assets/login.png)
+
 ## Submit customizations
 
 We'd be happy to include your themes and customizations here. To add them create an issue or make a pull request.
