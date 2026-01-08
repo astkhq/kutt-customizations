@@ -1,0 +1,170 @@
+:root {
+  --bg-color: #100F0F;
+  --text-color: #CECDC3;
+  --color-primary: #24837B;
+  /* --button-bg: linear-gradient(to right, #e0e0e0, #bdbdbd); */
+  --button-bg-primary: #24837B;
+  --copy-icon-bg-color: #343331;
+  --input-label-color: #CECDC3;
+  --table-bg-color: #1C1B1A;
+  --table-tr-border-color: #343331;
+  --table-tr-hover-bg-color: #3B3B3B;
+  --table-head-tr-border-color: #343331;
+  --table-status-gray-bg-color: #343331;
+}
+hr {
+  background-color: #343331;
+}
+a,
+button.link {
+  color: var(--text-color);
+}
+a:hover,
+button.link:hover {
+  color: var(--color-primary);
+}
+a.button,
+button {
+  border-radius: 10px;
+}
+a.button.action.delete,
+button.action.delete {
+  background: #e8705f29;
+}
+a.button.action.delete svg,
+button.action.delete svg {
+  stroke: #f89a8a;
+}
+a.button.action.edit,
+button.action.edit {
+  background: #343331;
+}
+a.button.action.qrcode,
+button.action.qrcode {
+  background: #343331;
+}
+a.button.action.qrcode svg,
+button.action.qrcode svg {
+  fill: #CECDC3;
+}
+a.button.action.stats,
+button.action.stats {
+  background: #343331;
+}
+a.button.action.ban,
+button.action.ban {
+  background: #e8705f29;
+}
+a.button.action.ban svg,
+button.action.ban svg {
+  stroke: #f89a8a;
+}
+button.nav {
+  border: 1px solid transparent;
+  background-color: #343331;
+}
+button.nav:disabled {
+  background-color: #343331;
+}
+button.nav:hover { transform: translateY(-2px); border-color: var(--color-primary); }
+button.table {
+  height: 32px;
+  padding: 0 1rem;
+  font-size: 12px;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+}
+button.table:hover {
+  transform: translateY(-2px);
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  color: #878580;
+  background-color: #343331;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: var(--color-primary);
+  box-shadow: none;
+}
+select {
+  color: #878580;
+  background-color: #353432;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  border-bottom: none;
+  box-shadow: none;
+}
+select:focus {
+  border-color: var(--color-primary);
+  box-shadow: none
+}
+table {
+  background-color: #1C1B1A;
+  box-shadow: none;
+}
+table th,
+table td {
+  box-shadow: none;
+}
+table .tab a {
+  background-color: #343331;
+  border: 1px solid transparent;
+}
+table .tab a.active {
+  background-color: #343331;
+  border-color: var(--color-primary);
+}
+table .tab a:not(.active):hover {
+  border-color: var(--color-primary);
+}
+.dialog {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadein 0.2s ease-in-out;
+}
+.dialog .box {
+  background-color: #1C1B1A;
+}
+.dialog.qrcode .box {
+  background-color: transparent;
+}
+#main-table-wrapper table tbody td.right-fade:after {
+  background: none;
+}
+#main-table-wrapper table tbody tr:hover td.right-fade:after {
+  background: none;
+}
+#main-table-wrapper table tr.edit {
+  background-color: var(--table-tr-hover-bg-color);
+}
+#main-table-wrapper table .status.gray { background-color: var(--table-status-gray-bg-color); }
+#main-table-wrapper table .status.green { background-color: #5abdac29; color: #87d3c3; }
+#main-table-wrapper table .status.red { background-color: #e8705f29; color: #f89a8a; }
+footer {
+  font-size: 14px;
+  background-color: #1c1b1a;
+}
+#stats {
+  background-color: var(--table-bg-color);
+  color: var(--text-color);
+  box-shadow: none;
+}
+.stats-period {
+  background-color: var(--table-bg-color);
+}
+svg.map path {
+  fill: #343331;
+}
+svg.map path.active { stroke: var(--color-primary); stroke-width: 1.5; }
